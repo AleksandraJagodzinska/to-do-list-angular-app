@@ -3,8 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  firebase : {
+    apiKey: "AIzaSyBjwG0potzgqc1OXkRZgJsCjw215-U2PPg",
+    authDomain: "to-do-list-angular-app.firebaseapp.com",
+    databaseURL: "https://to-do-list-angular-app.firebaseio.com",
+    projectId: "to-do-list-angular-app",
+    storageBucket: "to-do-list-angular-app.appspot.com",
+    messagingSenderId: "808327657399"
+  }
+}
 
 /*
  * In development mode, to ignore zone related error stack frames such as
